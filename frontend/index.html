@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Semantic Searcher</title>
+    <meta name="description" content="Discover and understand Excel formulas with AI-powered search. Find financial metrics, business concepts, and formula explanations instantly.">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Floating Background Orbs -->
+    <div class="floating-background">
+        <div class="orb orb-purple"></div>
+        <div class="orb orb-pink"></div>
+        <div class="orb orb-orange"></div>
+        <div class="orb orb-blue"></div>
+        <div class="orb orb-grey"></div>
+    </div>
+
+    <div class="container">
+        <!-- Header -->
+        <header class="header">
+            <h1>Semantic Search</h1>
+            <p>AI-Powered Sales Report Search</p>
+        </header>
+
+        <!-- Search Interface -->
+        <div class="search-container">
+            <div class="search-box">
+                <input type="text" id="searchInput" placeholder="Search for Excel formulas, financial metrics, or business concepts..." />
+                <input type="file" id="attachmentInput" multiple style="display: none;" />
+                <button type="button" id="attachmentBtn" class="attachment-btn" title="Add attachments">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <line x1="12" y1="5" x2="12" y2="19"></line>
+                        <line x1="5" y1="12" x2="19" y2="12"></line>
+                    </svg>
+                </button>
+                <button type="button" id="sendBtn" class="send-btn">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <line x1="22" y1="2" x2="11" y2="13"></line>
+                        <polygon points="22,2 15,22 11,13 2,9 22,2"></polygon>
+                    </svg>
+                </button>
+            </div>
+            
+            <!-- Attachment Preview -->
+            <div id="attachmentPreview" class="attachment-preview"></div>
+        </div>
+
+        <!-- Loading State -->
+        <div id="loadingState" class="loading-state hidden">
+            <div class="spinner"></div>
+            <p>Searching formulas...</p>
+        </div>
+
+        <!-- Results Container -->
+        <div id="resultsContainer" class="results-container"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
