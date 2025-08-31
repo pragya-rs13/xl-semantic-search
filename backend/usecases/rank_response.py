@@ -1,4 +1,4 @@
-from schemas.llm_schema import SearchResponse, ResultItem
+from schemas.llm_schema import ResultItem
 from typing import List
 
 def flatten_results(nested_results: List[List[ResultItem]]) -> List[ResultItem]:

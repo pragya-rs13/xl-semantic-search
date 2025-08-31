@@ -67,31 +67,7 @@ def expand_query_context(user_query):
 - **Structured Output**: Consistent response format with metadata
 
 ### 3.2 Result Ranking Algorithm
-```python
-# Simplified ranking logic
-def rank_results(search_results, query_context):
-    for result in search_results:
-        # LLM-based relevance scoring
-        relevance_score = llm.classify_relevance(
-            query=query_context,
-            result=result
-        )
-        
-        # Business context scoring
-        business_relevance = score_business_context(result)
-        
-        # Formula complexity scoring
-        formula_score = score_formula_complexity(result)
-        
-        # Combined weighted score
-        result.final_score = (
-            relevance_score * 0.6 +
-            business_relevance * 0.3 +
-            formula_score * 0.1
-        )
-    
-    return sorted(search_results, key=lambda x: x.final_score, reverse=True)
-```
+The system employs **LLM-driven relevance scoring** where the Gemini model directly provides relevance scores based on comprehensive context analysis. Rather than implementing separate scoring algorithms, the system leverages the LLM's understanding capabilities
 
 ## 4. Technical Architecture and Data Structures
 
