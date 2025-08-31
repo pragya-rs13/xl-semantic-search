@@ -52,11 +52,13 @@ The system consists of:
 - **AI Pipeline (In Backend)**: Multi-step LLM processing for semantic understanding
 
 ## Project Structure
+```
 xl-semantic-search/
 ├── frontend/ # Frontend application
 ├── backend/ # Backend API service
 ├── design-docs/ # Technical documentation
 └── README.md # This file
+```
 
 ## 🔗 Links
 

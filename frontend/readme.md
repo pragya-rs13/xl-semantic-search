@@ -75,7 +75,7 @@ A modern, responsive web interface for semantic search functionality built with 
    ```
 
 ## Project Structure
-
+```
 frontend/
 ├── index.html # Main HTML file
 ├── styles.css # Custom CSS styles
@@ -83,6 +83,7 @@ frontend/
 ├── package.json # Dependencies and scripts
 ├── vite.config.js # Vite configuration
 └── README.md # This file
+```
 
 ## Technologies Used
 

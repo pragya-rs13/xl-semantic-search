@@ -92,6 +92,7 @@ GEMINI_API_KEY=your_google_gemini_api_key_here
 ```
 
 ## Project Structure
+```
 backend/
 ├── main.py # FastAPI application entry point
 ├── requirements.txt # Python dependencies
@@ -114,7 +115,7 @@ backend/
 ├── load_csv.py # CSV file loading
 ├── load_workbook.py # Excel file loading
 └── validate_schema.py # Schema validation
-
+```
 
 ## API Endpoints
 
