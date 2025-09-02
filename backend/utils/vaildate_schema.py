@@ -14,7 +14,10 @@ def clean_json_fence(raw_text: str) -> str:
     
     match = re.search(r"```(?:json)?\s*(.*?)\s*```", raw_text, re.DOTALL)
     if match:
-        return match.group(1).strip()
+        cleaned = match.group(1).strip()
+        cleaned = cleaned.replace("\\'", "'")
+        return cleaned
+    
     return raw_text.strip()
 
 
