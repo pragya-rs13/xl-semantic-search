@@ -9,43 +9,6 @@ A modern, responsive web interface for semantic search functionality built with 
 - Real-time search results display
 - Responsive design for all devices
 
-## Quick Start with Docker
-
-### Prerequisites
-- Docker installed on your system
-
-### Running the Frontend
-
-1. **Build the Docker image:**
-   ```bash
-   docker build -t semantic-search-frontend .
-   ```
-
-2. **Run the container:**
-   ```bash
-   docker run -p 8081:80 semantic-search-frontend
-   ```
-
-3. **Access the application:**
-   Open your browser and navigate to `http://localhost:8081`
-
-### Docker Commands
-
-- **Stop the container:**
-  ```bash
-  docker stop $(docker ps -q --filter ancestor=semantic-search-frontend)
-  ```
-
-- **View running containers:**
-  ```bash
-  docker ps
-  ```
-
-- **Remove the image:**
-  ```bash
-  docker rmi semantic-search-frontend
-  ```
-
 ## Development Setup
 
 ### Prerequisites
