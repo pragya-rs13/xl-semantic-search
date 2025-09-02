@@ -4,9 +4,9 @@ A comprehensive semantic search solution that processes Excel files and provides
 
 ## Documentation
 
-- **[Frontend Documentation](frontend/README.md)** - Frontend setup, Docker deployment, and development guide
-- **[Backend Documentation](backend/README.md)** - Backend API, FastAPI setup, and deployment instructions  
-- **[Technical Design Document](design-docs/technical-design.md)** - Comprehensive technical architecture and implementation details
+- **[Frontend Documentation](https://github.com/pragya-rs13/xl-semantic-search/blob/5341102603f600913c0dd6bb483d4a6aefcc5436/frontend/readme.md)** - Frontend setup, Docker deployment, and development guide
+- **[Backend Documentation](https://github.com/pragya-rs13/xl-semantic-search/blob/5341102603f600913c0dd6bb483d4a6aefcc5436/backend/readme.md)** - Backend API, FastAPI setup, and deployment instructions  
+- **[Technical Design Document](https://github.com/pragya-rs13/xl-semantic-search/blob/5341102603f600913c0dd6bb483d4a6aefcc5436/design-docs/technical-design.md)** - Comprehensive technical architecture and implementation details
 
 ## Quick Start
 
